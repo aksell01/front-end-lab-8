@@ -1,0 +1,161 @@
+* {
+  margin: 10px auto;
+  padding: auto; 
+}
+
+body {
+  background: rgba(198, 238, 252, 0.53);
+}
+
+
+#content {
+  max-width: 980px;
+  background: #3b3b3b; 
+  margin: 10px auto;
+  padding: 20px 15px;
+ 
+}
+
+h1{
+  font-family: "Helvetica", serif;
+  color: #fccd10; 
+  text-align: center;
+  padding: 0 0 18px 0;
+}
+
+p {
+  margin-right: 15px;
+  padding-bottom: 18px;
+  color: #ffffff; }
+
+.img-left {
+  float: left;
+  margin: 0 20px 15px 0 ;
+  padding: 3px;
+  border: 3px solid #fccd10; 
+}
+
+
+h2 {
+  font-family: "Helvetica", serif;
+  color: #fccd10; 
+  padding: 0 0 25px 0;
+  }
+  
+  .brief {
+  max-width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #fff178;
+  color: #000000; 
+  }
+  
+  .img-right {
+  float: right;
+  margin: 0 0 30px 30px ;
+  padding: 3px;
+  border: 3px solid #fccd10;; 
+}
+
+a {
+  color: #fccd10; }
+
+
+table {
+  float: left;
+  width: 91%;
+  margin: 0 0 60px 0;
+  border-spacing: 0px;
+  color: #ffffff; }
+
+
+  table caption {
+    text-align: right;
+    color: #000000; 
+  }
+  
+  table tr {
+    background: #677d01 }
+    table tr th {
+      text-align: left;
+      font-weight: normal;
+      padding: 10px 0 9px 18px;
+      border-right: 1px solid #ffffff;
+      background: #94a34e;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+    table tr th {
+        color: #000000;
+    }
+    table tr th:last-child {
+      border-right: 0; 
+    }
+    table tr td {
+      border-bottom: 1px solid #e0e0e0; 
+      padding: 8px 7px 12px 18px;
+    }
+      
+
+    .TODO {
+        margin-bottom: 0;
+    }
+    
+    
+    form {
+    max-width: 980px;
+    margin: 0;
+   }
+  
+  form div {
+    margin-bottom: 15px; 
+  }
+  form p {
+    padding-bottom: 0;
+    text-transform: uppercase;
+    color: #f5c70f;
+  }
+  
+  form input[type="text"], form textarea {
+    border: 1px solid #e0e0e0; 
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    margin-top: 5px;
+    height: 25px; }
+  
+  form ::-webkit-input-placeholder {
+    padding-left: 10px; }
+  
+   .First-name,
+   .Last-name {
+    display: inline-block;
+    width: 49%;
+    
+  }
+
+  .Last-name {
+    margin-left: 15px; 
+  }
+  
+  
+  .customer-review textarea {
+    width: 975px;
+    height: 140px;
+    margin: 7px auto auto auto;
+    
+  }
+  
+  form button {
+    background: #3b3b3b;
+    color: #fccd10;
+    text-transform: uppercase;
+    margin-top: 5px;
+    padding: 12px 40px;
+    font-size: 25px;
+    border: 1px solid #fccd10;
+    
+  }
+  
+  
