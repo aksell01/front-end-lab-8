@@ -1,0 +1,412 @@
+body {
+  font-family: 'Open Sans';
+  margin: 0;
+  background-color: #fff;
+}
+
+
+/*HEADER*/
+
+header {
+  background-image: url("../img/apples.jpg");
+  background-size: cover;
+  background-position: center;
+  max-height: 740px;
+  
+}
+
+header .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+header .top > div {
+  width: 70%;
+}
+
+
+.name a{
+    float: left;
+    margin: 0 0 0 115px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header ul {
+  margin: 0;
+  padding-left: 130px;
+}
+
+header .menu ul li{
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 0 0 60px;}
+    .menu ul li:first-child {
+       margin-left: 20px;
+       border-bottom: 2px solid #b7c8d9; }
+         .menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding-bottom: 5px;}
+
+
+.full {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+header .full > div {
+  text-align: center;
+  padding-top: 170px;
+}
+
+
+
+header .full > .bigwords {
+  font-size: 3.7em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+header .top > .bigwords .an {
+  font-size: 1.7em;
+}
+
+header .top > .bigwords sup {
+  font-size: 0.4em;
+}
+.bigwords {
+  padding-left: 30px;
+  font-size: 40px;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.bigwords span {
+    font-size: 90px;
+}
+
+.an {
+   
+    color: #fff;
+    font-size: 14px;
+}
+
+ button {
+  margin-bottom: 100px;
+  width: 230px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+  
+}
+
+/*FIRST SECTION*/
+
+.first-section .flex-container {
+  display: flex;
+  height: 360px;
+  
+}
+
+.first-section .flex-container > div {
+  max-width: 1200px;
+  align-self: center;
+}
+
+.first-section .flex-container > div:first-child p {
+  font-size: 20px;
+  margin-left: 60px;
+  
+}
+
+.message p {
+    display: inline-block;
+    color:#000;
+    margin-top:  60px;
+    margin-right: 60px;
+    text-align: justify;
+    padding-left: 15px;
+}
+.message span {
+    font-weight: bold;
+}
+
+
+/*Second Section */
+
+.second-section {
+  background-color: #f3f3f3;
+  height: 100%;
+ 
+}
+
+.second-section h1 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 145px;
+  padding-bottom: 75px;
+  margin: 0;
+}
+
+.second-section h1 span {
+  font-weight: bold;
+}
+
+.second-section .flex-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1220px;
+  margin: 0 auto;
+}
+
+.flex-container > div {
+  height: 300px;
+  margin: 10px;
+  background-size: cover;
+  color: #fff;
+}
+
+.flex-container > div .like {
+  position: relative;
+}
+
+.flex-container > div .like span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  border: 2px solid #fff;
+  background-color: rgba(52, 54, 56, 0.6);
+}
+
+.flex-container > div h3 {
+  top: 240px;
+  left: 25px;
+  position: relative;
+}
+
+.flex-container > div h3 span {
+  color: #d0d0d0;
+}
+
+.flex-container .item1 {
+  flex-grow: 2;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 65%, rgba(0, 0, 0, 0.1) 70%, rgba(0, 0, 0, 0.4)), url("../img/sample.jpg");
+  background-size: cover;
+}
+
+.flex-container .item2 {
+  flex-grow: 1;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 65%, rgba(0, 0, 0, 0.1) 70%, rgba(0, 0, 0, 0.4)), url("../img/sample2.jpg");
+  background-size: cover;
+}
+
+ .flex-container .item3 {
+  flex-grow: 2;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 65%, rgba(0, 0, 0, 0.1) 70%, rgba(0, 0, 0, 0.4)), url("../img/sample3.jpg");
+  background-size: cover;
+}
+
+
+/*Container three*/
+
+.second-section .subscribe {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 90px auto 180px auto;
+  padding: 70px 0 70px 0;
+  background-color: #fff;
+}
+
+.second-section .subscribe div:first-child {
+      width: 40%;
+    text-align: center;
+    font-size: 25px;
+    margin: 70px 20px 60px 20px;
+  
+}
+
+.second-section .subscribe div:last-child {
+  width: 60%;
+  margin: 60px 20px 60px 0;
+}
+
+.second-section.subscribe span {
+  margin-top: 60px;
+  font-size: 24px;
+  
+}
+
+.second-section .subscribe input {
+  height: 51px;
+  width: 60%;
+  margin-right: 0;
+  padding-right: 0px;
+  border: 1px solid #343638;
+  background-color: #f3f3f3;
+  color: #000;
+}
+
+.subscribe input::placeholder {
+  color: #000;
+  padding-left: 5%;
+  
+}
+.subscribe {
+    display: block;
+    width: 100%;
+}
+
+
+
+.second-section .subscribe button{
+  margin-left: -5px;
+  padding: 0;
+  height: 55px;
+  width: 25%;
+  border: 1px solid #343638;
+  background-color: #343638;
+  color: #fff;
+}
+
+
+/*Container FOUR*/
+
+
+.container-four {
+  display: flex;
+  max-width: 1200px;
+  margin: 60px auto 0 auto;
+  border-bottom: 2px solid #f0f0f0;
+  background-color: #fff;
+}
+
+.container-four h3 {
+    color: #000 !important;
+}
+
+.container-four p {
+    
+  line-height: 1.5;
+}
+
+.column_01{
+  
+ float: left;
+  width: 23%;
+  margin-right: 30px;
+  color: #9e9e9e;
+  text-align: justify;
+  padding-right: 40px;
+   
+}
+ 
+.column_02{
+    
+  float: left;
+  margin: 0 10px 20px 35px;
+  color: #9e9e9e;
+  text-align: justify;
+  padding-right: 40px;
+  
+    
+}
+.column_03 {
+  
+  float: left;
+  width: 23%;
+  margin: 0 20px 25px 15px;
+  color: #9e9e9e;
+  text-align: justify;
+  padding-right: 40px;}   
+    .column_03 p{
+        font-style: italic;}
+      .column_03 .hours {
+         margin-top: 5px;
+         color: #f0f0f0;
+}
+
+.column_04 {
+   float: right;
+   width: 26%;
+   margin-left: 20px;
+   color: #9e9e9e} 
+
+.container-four .column_04 input {
+  height: 51px;
+  width: 60%;
+  border: 1px solid #343638;
+  background-color: #f3f3f3;
+  color: #000;
+}
+   
+.container-four .column_04 input::placeholder {
+    
+    padding: 0 0 0 10px;
+}
+
+.container-four .column_04 button{
+    
+    margin-left: -5px;
+    padding: 0;
+    height: 55px;
+    width: 30%;
+    border: 1px solid #343638;
+    background-color: #343638;
+    color: #fff;
+}
+  
+
+
+
+/*FOOTER*/
+
+footer .last {
+  width: 90%;
+  margin: 0 auto;
+}
+
+footer .last div {
+  padding: 25px 0 25px 0;
+}
+
+footer .last .left-side {
+  float: left;
+}
+
+footer .last .left-side span {
+  color: #a9a9a9;
+}
+
+footer .last .right-side {
+  float: right;
+}
+
+footer .last .right-side ul {
+  list-style: none;
+  margin: 0;
+}
+
+footer .last .right-side ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+footer .last .right-side ul li a {
+  text-decoration: none;
+  color: #000;
+}
