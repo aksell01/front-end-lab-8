@@ -1,0 +1,33 @@
+/* Your styles goes here */
+
+li{
+	list-style: none;
+}
+
+	p {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+}
+.folderAndFile:hover {
+	background-color: #fffafa;
+}
+
+.childFold{
+	margin-left :10px;
+	display: none;
+}
+.empty{
+	font-style: italic;
+	display: none;
+}
+.file{
+	color: #babbba;
+}
+.clicked > .childFold,
+.clicked > .empty{
+	display: block;
+}

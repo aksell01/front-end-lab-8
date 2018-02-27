@@ -1,3 +1,7 @@
+/**
+ * Your debounce function goes here
+ * function(){}
+ */
 function debounce(increaseIteratorBy1, delay) {
     let timeout;
     return () => {
@@ -5,7 +9,7 @@ function debounce(increaseIteratorBy1, delay) {
         timeout = setTimeout(increaseIteratorBy1, delay);
     }
 }
-
+// Example
 
 let iterator = 0;
 
